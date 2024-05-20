@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 1400px;
+}
+
+@media screen and (max-width: 480px) {
+  .card-container {
+    margin: 8px;
+  }
+}
+
+.card-green-first {
+  height: 527px;
+  border: 2px solid #179d2e;
+}
+
+.card-blue-first {
+  height: 527px;
+  border: 2px solid #0177b8;
+}
+
+.card-orange-first {
+  height: 527px;
+  border: 2px solid #f5af23;
+}
+
+.card-green-second {
+  height: 545px;
+  border: 2px solid #179d2e;
+}
+
+.card-blue-second {
+  height: 545px;
+  border: 2px solid #0177b8;
+}
+
+.card-red-second {
+  height: 545px;
+  border: 2px solid #f02e2c;
+}
+
+.card-green-third {
+  height: 587px;
+  border: 2px solid #179d2e;
+}
+
+.card-orange-third {
+  height: 587px;
+  border: 2px solid #f5af23;
+}
+
+.card-red-third {
+  height: 587px;
+  border: 2px solid #f02e2c;
+}
+
+.card-content-list {
+  color: #2d2d2d;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.card {
+  width: 100%;
+  max-width: 424px;
+  padding: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    height: auto;
+  }
+}
+
+.img-container {
+  display: flex;
+  justify-content: end;
+}
+
+.card h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42.3px;
+  color: #181833;
+  margin: 24px 0 24px 0;
+}
+
+.card-content-list ul {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.view-more {
+  color: #2d2d2d;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  display: flex;
+  justify-content: end;
+}
